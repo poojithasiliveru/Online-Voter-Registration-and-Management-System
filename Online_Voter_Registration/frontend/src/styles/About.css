@@ -1,0 +1,19 @@
+/* about.css */
+body{
+  color: white;
+  text-align: justify;
+}
+/* Container styles */
+.about-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: larger ;
+  font-weight: 500;
+}
+
+/* Heading styles */
+.about-heading {
+  font-size: 34px;
+  margin-bottom: 20px;
+}

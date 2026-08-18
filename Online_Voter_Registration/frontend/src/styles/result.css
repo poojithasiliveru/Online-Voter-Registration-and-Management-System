@@ -1,0 +1,13 @@
+/* src/styles/Results.css */
+.results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .results-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  

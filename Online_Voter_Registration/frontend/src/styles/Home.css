@@ -1,0 +1,64 @@
+
+
+/* Body styles */
+body {
+  background-image: url('E:\MERN-Voting-APP-master\MERN-Voting-APP-master\frontend\images\572b2d7a-fbc5-41b4-9a00-16b390b4f005.png'); 
+  margin: 0; /* Remove default margin */
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f0f0; /* Optional: Set a light background color for the body */
+  overflow: hidden; 
+}
+
+/* Container for the home page */
+.home-container {
+  text-align: center; /* Center text within the container */
+  margin: 0px auto; /* Space above the container and center horizontally */
+  padding: 50px; /* Inner padding for the container */
+  border-radius: 10px; /* Optional: rounds the corners of the container */
+  height: 100vh; /* Set height to a percentage of the viewport height */
+  overflow: hidden; 
+
+  /* Background image properties */
+  
+  background-size: cover; /* Makes the background cover the entire container */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+width: auto;
+height: auto;
+}
+
+.home-title {
+  color: #fff; /* Title color */
+}
+
+
+
+.home-subtitle {
+  color: #fff; /* Subtitle color */
+  margin-bottom: 20px; /* Space below the subtitle */
+  font-weight: bold; /* Make the subtitle bold */
+  font-size: 48px; /* Optional: Increase font size for better visibility */
+}
+
+
+.button-container {
+  margin-top: 20px; /* Space above the button container */
+}
+
+/* Button styles */
+.login-button,
+.register-button {
+  padding: 10px 20px; /* Button padding */
+  margin-right: 10px; /* Space between buttons */
+  background-color: #054c53; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Round button corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Button hover styles */
+.login-button:hover,
+.register-button:hover {
+  background-color: #092645; /* Darker blue on hover */
+}

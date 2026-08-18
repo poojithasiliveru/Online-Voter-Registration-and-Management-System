@@ -1,0 +1,40 @@
+/* Thank.css */
+
+.thank-you-container {
+  margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    background-color: #000; /* Optional: light background color */
+  }
+  
+  .thank-you-container h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .thank-you-container p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  
+  .thank-you-container button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #144641; /* Primary button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .thank-you-container button:hover {
+    background-color: #09324d;/* Darker shade on hover */
+  }
+  

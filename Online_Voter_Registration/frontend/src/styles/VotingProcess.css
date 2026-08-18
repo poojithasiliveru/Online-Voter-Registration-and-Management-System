@@ -1,0 +1,93 @@
+/* Container styles */
+.voting-process-container {
+  
+  max-width: 600px; /* Set max width for the container */
+  margin: 40px auto; /* Center the container with space above */
+  padding: 20px; /* Inner padding */
+  background-color: #ffffff; /* White background for the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+ul{
+  color: black;
+}
+/* Heading styles */
+.voting-process-heading {
+  font-size: 28px; /* Slightly larger heading */
+  margin-bottom: 15px; /* Space below the heading */
+  color: #333; /* Darker color for better contrast */
+  text-align: center; /* Center the heading */
+}
+
+/* Error message styles */
+.error {
+  color: #d9534f; /* Bootstrap danger color */
+  margin-bottom: 10px; /* Space below the error message */
+  text-align: center; /* Center error message */
+}
+
+/* Loading message styles */
+.loading-message {
+  font-style: italic; /* Italicized loading message */
+  text-align: center; /* Center loading message */
+  color: #777; /* Gray color */
+}
+
+/* Candidate list styles */
+.candidate-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 20px 0; /* Space above and below the list */
+}
+
+/* Candidate list item styles */
+.candidate-item {
+  display: flex; /* Flexbox for better alignment */
+  justify-content: space-between; /* Space between name and button */
+  align-items: center; /* Center items vertically */
+  padding: 10px; /* Padding for list items */
+  border-bottom: 1px solid #eee; /* Light border between items */
+}
+
+.candidate-item:last-child {
+  border-bottom: none; /* Remove border for last item */
+}
+
+/* Vote button styles */
+.vote-button {
+  background-color: #0a2038; /* Bootstrap primary color */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 8px 15px; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Vote button hover effect */
+.vote-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Voting result button styles */
+.view-result-button {
+  background-color: #28a745; /* Bootstrap success color */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-top: 20px; /* Space above the button */
+  display: block; /* Center button */
+  width: 100%; /* Full width */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Voting result button hover effect */
+.view-result-button:hover {
+  background-color: #218838; /* Darker shade on hover */
+}
+label{
+  color: black;
+}

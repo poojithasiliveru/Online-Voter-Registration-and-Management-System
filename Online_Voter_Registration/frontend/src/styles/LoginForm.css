@@ -1,0 +1,56 @@
+/* Body styles with background image applied globally */
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url('E:\MERN-Voting-APP-master\MERN-Voting-APP-master\frontend\images\1515925-vertical-dark-windows-10-wallpaper-1920x1200.jpg'); /* Update path if necessary */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Specific styles for the login page container */
+.login-form-container {
+  
+  width: 400px;
+  margin-top: 190px;
+  margin-left: 490px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(249, 249, 249, 0.9);
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styling */
+button {
+  background-color: #071b31;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+}
+label{
+  color: black;
+}
+
+button:hover {
+  background-color: #071b31;
+}

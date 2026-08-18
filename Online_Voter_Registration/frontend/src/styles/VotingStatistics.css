@@ -1,0 +1,41 @@
+.voting-stats-container {
+  margin-top: 20px;
+  color: white; /* Default text color */
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.table-container {
+  margin: 0 auto; /* This will center the table */
+  width: fit-content; /* This will make the container take the width of its content */
+}
+
+.candidate-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.candidate-table th,
+.candidate-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Background color for table headers */
+.candidate-table th {
+  background-color: black;
+  color: white; /* Ensure header text is white */
+}
+
+/* Set text color for candidate details to white */
+.candidate-table td {
+  color: white; /* Text color for table data */
+}
+
+body {
+  color: white; /* Global body text color */
+}

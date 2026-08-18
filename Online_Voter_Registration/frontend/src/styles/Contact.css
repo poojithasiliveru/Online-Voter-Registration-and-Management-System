@@ -1,0 +1,20 @@
+/* Contact.css */
+
+/* Container styles */
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-weight: 500;
+  font-size: larger;
+
+}
+body{
+  color: white;
+  text-align: justify;
+}
+/* Heading styles */
+.contact-heading {
+  font-size: 34px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,64 @@
+/* Base body styles */
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+/* Background styles specific to the register form page */
+.register-page {
+  height: 100vh;
+  background-image: url('E:\MERN-Voting-APP-master\MERN-Voting-APP-master\frontend\images\images (6).jpg'); /* Update this path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Container for the register form */
+.register-form-container {
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(249, 249, 249, 0.9); /* Light background with transparency */
+}
+label{
+  color: black;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styling */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

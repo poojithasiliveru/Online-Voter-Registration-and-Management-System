@@ -1,0 +1,25 @@
+header {
+  background-color: #054c53;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Add margin: 0 to remove default margin */
+}
+
+nav ul li {
+  display: inline-block; /* Change display to inline-block for better spacing control */
+  margin: 0 20px; /* Add margin on both sides for even spacing */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none; /* Remove underline from links */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Keep underline on hover */
+}
