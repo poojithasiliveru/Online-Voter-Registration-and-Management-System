@@ -49,6 +49,3 @@ This repository contains the documentation for the Voting System, outlining the 
      - **Request:** DELETE `/candidates/:candidateId`
      - **Parameters:** `:candidateId` (unique identifier of candidate)
      - **Role:** Administrator
-
-
-
