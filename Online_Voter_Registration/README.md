@@ -2,11 +2,6 @@
 
 This repository contains the documentation for the Voting System, outlining the processes for both users and administrators.
 
-##Flow Diagram
-
-![Flow Diagram](https://github.com/shivarajkulal/MERN-Voting-APP/raw/master/flowdiagram.png)
-
-
 ## Processes Overview
 
 1. **Logged-in Users:**
@@ -55,18 +50,5 @@ This repository contains the documentation for the Voting System, outlining the 
      - **Parameters:** `:candidateId` (unique identifier of candidate)
      - **Role:** Administrator
 
-## How to Use
-
-To get started with the Voting System, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Install the necessary dependencies.
-3. Start the application.
-4. Follow the provided endpoints to interact with the system.
-5. For administrators, make sure to authenticate properly to access administrative functionalities.
-
-## Contributors
-
-- [Shivaraj](https://github.com/shivarajkulal)
 
 
